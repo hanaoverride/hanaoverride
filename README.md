@@ -8,7 +8,7 @@
 
     웹 개발: JavaScript, Spring Boot, React
 
-    관심 분야: LLM(Large Language Models), AI, 웹 개발
+    관심 분야: LLM(Large Language Models), AI, 소형 프로그램 만들기
     
 
 🔭 현재 관심사
