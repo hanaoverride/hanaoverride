@@ -11,8 +11,7 @@ I build small tools and write notes on `LLM engineering`, `computer science`, an
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hanaoverride&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hanaoverride&theme=dark&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hanaoverride&layout=compact&theme=dark&hide_border=true)
-
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hanaoverride&layout=compact&theme=dark&hide_border=true&hide=jupyter%20notebook)
 ### Problem Solving
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=hanaoverride)](https://solved.ac/hanaoverride)
 
