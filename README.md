@@ -31,8 +31,8 @@ I build small tools and write notes on `LLM engineering`, `computer science`, an
 
 ## Selected Projects
 - `hanaoverride.github.io` — Personal tech/blog (Jekyll on GitHub Pages). Topics include LLM fundamentals, join operation visualizations, study guides, and CTF writeups. [Repo](https://github.com/hanaoverride/hanaoverride.github.io)
-- `english-for-it (Docs, ★18)` — Study guidance in Korean for improving practical technical English. These series of posts received good reviews on X. [Repo](https://github.com/hanaoverride/english-for-it)
-- `Data Scientist Cookbook for Korean (Markdown, ★14)` — I've done some handywork during the program and I'm really proud of it, as it is nicely completed so that newcomer follows this cookbook to follow-up basic principles of Machine Learning. If you are Korean, and If you want a basic knowledge about it I really recommend to fully read these documents. [Repo](https://github.com/hanaoverride/data-scientist-cookbook)
+- `english-for-it (Docs, ★21)` — Study guidance in Korean for improving practical technical English. These series of posts received good reviews on X. [Repo](https://github.com/hanaoverride/english-for-it)
+- `Data Scientist Cookbook for Korean (Markdown, ★15)` — I've done some handywork during the program and I'm really proud of it, as it is nicely completed so that newcomer follows this cookbook to follow-up basic principles of Machine Learning. If you are Korean, and If you want a basic knowledge about it I really recommend to fully read these documents. [Repo](https://github.com/hanaoverride/data-scientist-cookbook)
 - `PDF-OCR-by-LLM (Python, ★5)` — Converts image-only PDFs into searchable PDFs using EasyOCR + LLM-based correction with overlay output. Includes GUI. [Repo](https://github.com/hanaoverride/PDF-OCR-by-LLM)
 - `solutions-for-coding-test (Python, ★2)` — Algorithms and data structures practice (DP, graph, BFS/DFS, greedy, etc.). [Repo](https://github.com/hanaoverride/solutions-for-coding-test)
 
