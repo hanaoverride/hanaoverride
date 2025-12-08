@@ -22,9 +22,9 @@ I build small tools and write notes on `LLM engineering`, `computer science`, an
 ## Tech Stack
 - `Programming Languages`: I have used many of them; but the one I actually have expertise in is **Python**.
 I'm also interested in C# and Java and have done some projects with them. I could try to read and suggest a code of languages that I don't know much based on the heuristics, but I can't say that's my **stack**.
-- `Platforms/Frameworks`: I've done personal projects with AWS Serverless, FastAPI, Spring Boot, GitHub Pages, Jekyll (minima theme)
-- `AI/ML`: Usually PyTorch, but I can understand some legacy TensorFlow codes. I achieved #1 performance in 2 internal contests at my Yeardream bootcamp, which are classification and image classification.
-- `Domains`: I will graduate the university(Korea National Open University) after this final semester, with expected GPA of 3.4. Plus I'm in the Yeardreamschool Data Scientist Track, and this will be completed in 4th quarter of this year.
+- `Platforms/Frameworks`: I've done personal projects with C++ with transformers, Unity 3D, Next.js, FastAPI, GitHub Pages with Jekyll (minima theme)
+- `AI/ML`: Usually PyTorch, but I can understand some legacy TensorFlow codes.
+- `Domains`: I will graduate the university(Korea National Open University) after this final semester, with expected GPA of 3.4. Plus I've completed YearDreamSchool 5th DataScientist Track to enhance my AI Skills.
 ## Selected Projects
 [![hanaoverride.github.io](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=hanaoverride.github.io&show_owner=true)](https://github.com/hanaoverride/hanaoverride.github.io)
 
@@ -46,8 +46,20 @@ I'm also interested in C# and Java and have done some projects with them. I coul
 
 - Algorithms and data structures practice (DP, graph, BFS/DFS, greedy, etc.).
 
+[![Mate-Engine-OpenRouter](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=Mate-Engine-OpenRouter&show_owner=true)](https://github.com/hanaoverride/Mate-Engine-OpenRouter)
+
+- Added OpenRouter Web Chat integration with additional UI to Unity 3D client; chill with your favorite anime character.
+
+![MUNCH.PRESS enhancement project - Backend](https://github.com/YearDream-The-Crew/backend)
+
+- Team project which I took account of the lead; Fully Functioning FastAPI backend with automated CI/CD integration, plus IaC.
+
+![MUNCH.PRESS enhancement project - Frontend](https://github.com/YearDream-The-Crew/frontend)
+
+- Team project which I took account of the lead; Next.js with TailwindCSS support.
+- 
 ## Interests
-- `LLM engineering`: prompt design, text normalization, evaluation, debugging, defend prompt injections, and especially know when to use LLMs.
+- `LLM engineering`: agent programming, prompt design, evaluation, debugging, defending prompt injections, and especially know when to use LLMs.
 - `Machine Learning`: Transformer-based Language models are OK, Vision Models are OK, and I also have interest in Deep-Learning based Chess Engine like LeelaChessZero.(I've tried with orthodox minimax algorithm)
 - `OCR and document processing`: robust pipelines, post-OCR correction, searchability
 - `Computer science fundamentals`: algorithms, data structures, joins and query reasoning
