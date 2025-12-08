@@ -57,7 +57,7 @@ I'm also interested in C# and Java and have done some projects with them. I coul
 ![MUNCH.PRESS enhancement project - Frontend](https://github.com/YearDream-The-Crew/frontend)
 
 - Team project which I took account of the lead; Next.js with TailwindCSS support.
-- 
+  
 ## Interests
 - `LLM engineering`: agent programming, prompt design, evaluation, debugging, defending prompt injections, and especially know when to use LLMs.
 - `Machine Learning`: Transformer-based Language models are OK, Vision Models are OK, and I also have interest in Deep-Learning based Chess Engine like LeelaChessZero.(I've tried with orthodox minimax algorithm)
