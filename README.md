@@ -10,11 +10,13 @@ I build small tools and write notes on `LLM engineering`, `computer science`, an
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hanaoverride&show_icons=true&theme=dark&hide_border=true&count_private=true)
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hanaoverride&theme=dark&hide_border=true)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hanaoverride&layout=compact&theme=dark&hide_border=true&hide=jupyter%20notebook)
-### Problem Solving
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=hanaoverride)](https://solved.ac/hanaoverride)
 
 </div>
 
+## Educations
+- I am graduating from Korea National Open University (KNOU) with a B.S. in Computer Science in March this year.
+- I successfully completed the 5th cohort of the YearDreamSchool Data Scientist program (Mar 2025 – Dec 2025).
 ## Languages
 - `Korean`: My Native Language and I usually follow basic principle of writing and speaking, maintaining a fluent and academic tone.
 - `English`: I can speak it fluently — if you want a technical debate in real life, I can accept it. If you want me to answer the questions in the secondary room — I'm ready.
