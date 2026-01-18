@@ -15,7 +15,7 @@ I build small tools and write notes on `LLM engineering`, `computer science`, an
 </div>
 
 ## Educations
-- I am graduating from `Korea National Open University (KNOU)` with a `B.S. in Computer Science` in March this year.
+- I am graduating from `Korea National Open University (KNOU)` with a `B.S. in Computer Science` in February this year.
 - I successfully completed `the 5th cohort of the YearDreamSchool Data Scientist program` (Mar 2025 – Dec 2025).
 ## Languages
 - `Korean`: My Native Language and I usually follow basic principle of writing and speaking, maintaining a fluent and academic tone.
