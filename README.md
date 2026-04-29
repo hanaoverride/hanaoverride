@@ -1,6 +1,6 @@
 # hanaoverride
 ## Overview
-I build small tools and write notes on `LLM engineering`, `computer science`, and `security`. I maintain a technical blog and several learning repositories.
+I do various things for a living. I maintain a technical blog and several learning repositories.
 - `Blog`: https://hanaoverride.github.io
 - `Focus areas`: I usually do various things, but If I really have to pick up themes; Machine Learning(NLP, CV), Security, Full-Stack Web Programming(Python, Next.js), and Linguistics!
 ## Stats & Activity
@@ -15,7 +15,7 @@ I build small tools and write notes on `LLM engineering`, `computer science`, an
 </div>
 
 ## Educations
-- I am graduating from `Korea National Open University (KNOU)` with a `B.S. in Computer Science` in February this year.
+- I graduated from `Korea National Open University (KNOU)` with a `B.S. in Computer Science` in February 2026.
 - I successfully completed `the 5th cohort of the YearDreamSchool Data Scientist program` (Mar 2025 – Dec 2025).
 ## Languages
 - `Korean`: My Native Language and I usually follow basic principle of writing and speaking, maintaining a fluent and academic tone.
