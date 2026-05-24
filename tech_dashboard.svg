@@ -1,0 +1,237 @@
+<svg fill="none" viewBox="0 0 1000 1100" width="100%" height="1100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Slate -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B10"/>
+      <stop offset="50%" stop-color="#0E131F"/>
+      <stop offset="100%" stop-color="#05070A"/>
+    </linearGradient>
+
+    <!-- Liquid Glow Backlights -->
+    <linearGradient id="glow-violet" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="100%" stop-color="#4C1D95"/>
+    </linearGradient>
+    <linearGradient id="glow-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <linearGradient id="glow-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#064E3B"/>
+    </linearGradient>
+    <linearGradient id="glow-amber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+
+    <!-- Gaussian Blur -->
+    <filter id="liquid-blur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="80" />
+    </filter>
+
+    <!-- Glass Panel Borders -->
+    <linearGradient id="tile-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.25"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-inter { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    .tile-title { font-weight: 800; font-size: 17px; fill: #ffffff; letter-spacing: 0.5px; }
+    .skill-text { font-weight: 600; font-size: 13.5px; fill: #F1F5F9; }
+    .panel-base { fill: rgba(255, 255, 255, 0.025); stroke: url(#tile-border); stroke-width: 1.5px; }
+    .skill-pill { fill: rgba(255, 255, 255, 0.06); stroke: rgba(255, 255, 255, 0.12); stroke-width: 1.2px; }
+    .dot-cyan { fill: #06B6D4; filter: drop-shadow(0 0 6px #06B6D4); }
+    .dot-violet { fill: #8B5CF6; filter: drop-shadow(0 0 6px #8B5CF6); }
+    .dot-emerald { fill: #10B981; filter: drop-shadow(0 0 6px #10B981); }
+    .dot-amber { fill: #F59E0B; filter: drop-shadow(0 0 6px #F59E0B); }
+  </style>
+
+  <!-- Base Grid Background -->
+  <rect width="1000" height="1100" rx="24" fill="url(#bg-grad)" />
+
+  <!-- Liquid Glow Backlights (Behind Glass Dashboard) -->
+  <circle cx="200" cy="200" r="180" fill="url(#glow-violet)" filter="url(#liquid-blur)" opacity="0.45" />
+  <circle cx="800" cy="400" r="220" fill="url(#glow-cyan)" filter="url(#liquid-blur)" opacity="0.45" />
+  <circle cx="350" cy="650" r="180" fill="url(#glow-emerald)" filter="url(#liquid-blur)" opacity="0.35" />
+  <circle cx="250" cy="900" r="190" fill="url(#glow-amber)" filter="url(#liquid-blur)" opacity="0.35" />
+  <circle cx="750" cy="950" r="180" fill="url(#glow-violet)" filter="url(#liquid-blur)" opacity="0.4" />
+
+  <!-- Overall Dashboard Outliner Frame -->
+  <rect x="20" y="20" width="960" height="1060" rx="20" fill="rgba(255, 255, 255, 0.01)" stroke="url(#tile-border)" stroke-width="1.8" />
+
+  <!-- COLUMN 1: LEFT -->
+
+  <!-- TILE 1: Programming Languages -->
+  <g transform="translate(45, 50)">
+    <rect class="panel-base" width="425" height="210" rx="14" />
+    <circle cx="25" cy="30" r="5.5" class="dot-violet" />
+    <text class="font-inter tile-title" x="42" y="35">Programming Languages</text>
+    <!-- Skills Grid -->
+    <g transform="translate(25, 65)">
+      <!-- TypeScript -->
+      <rect class="skill-pill" x="0" y="0" width="120" height="36" rx="9" />
+      <text class="font-inter skill-text" x="60" y="22" text-anchor="middle">TypeScript</text>
+      <!-- Python -->
+      <rect class="skill-pill" x="130" y="0" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="177.5" y="22" text-anchor="middle">Python</text>
+      <!-- Java -->
+      <rect class="skill-pill" x="235" y="0" width="80" height="36" rx="9" />
+      <text class="font-inter skill-text" x="275" y="22" text-anchor="middle">Java</text>
+      
+      <!-- Row 2 -->
+      <!-- C# -->
+      <rect class="skill-pill" x="0" y="48" width="65" height="36" rx="9" />
+      <text class="font-inter skill-text" x="32.5" y="70" text-anchor="middle">C#</text>
+      <!-- C++ -->
+      <rect class="skill-pill" x="75" y="48" width="75" height="36" rx="9" />
+      <text class="font-inter skill-text" x="112.5" y="70" text-anchor="middle">C++</text>
+    </g>
+  </g>
+
+  <!-- TILE 2: Backend -->
+  <g transform="translate(45, 290)">
+    <rect class="panel-base" width="425" height="210" rx="14" />
+    <circle cx="25" cy="30" r="5.5" class="dot-emerald" />
+    <text class="font-inter tile-title" x="42" y="35">Backend</text>
+    <!-- Skills Grid -->
+    <g transform="translate(25, 65)">
+      <!-- Node.js -->
+      <rect class="skill-pill" x="0" y="0" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="47.5" y="22" text-anchor="middle">Node.js</text>
+      <!-- FastAPI -->
+      <rect class="skill-pill" x="105" y="0" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="152.5" y="22" text-anchor="middle">FastAPI</text>
+      <!-- Spring Boot -->
+      <rect class="skill-pill" x="210" y="0" width="120" height="36" rx="9" />
+      <text class="font-inter skill-text" x="270" y="22" text-anchor="middle">Spring Boot</text>
+    </g>
+  </g>
+
+  <!-- TILE 3: Database -->
+  <g transform="translate(45, 530)">
+    <rect class="panel-base" width="425" height="210" rx="14" />
+    <circle cx="25" cy="30" r="5.5" class="dot-amber" />
+    <text class="font-inter tile-title" x="42" y="35">Database</text>
+    <!-- Skills Grid -->
+    <g transform="translate(25, 65)">
+      <!-- PostgreSQL -->
+      <rect class="skill-pill" x="0" y="0" width="120" height="36" rx="9" />
+      <text class="font-inter skill-text" x="60" y="22" text-anchor="middle">PostgreSQL</text>
+      <!-- MySQL -->
+      <rect class="skill-pill" x="130" y="0" width="90" height="36" rx="9" />
+      <text class="font-inter skill-text" x="175" y="22" text-anchor="middle">MySQL</text>
+      <!-- SQLite -->
+      <rect class="skill-pill" x="230" y="0" width="90" height="36" rx="9" />
+      <text class="font-inter skill-text" x="275" y="22" text-anchor="middle">SQLite</text>
+    </g>
+  </g>
+
+  <!-- TILE 4: AI & Machine Learning -->
+  <g transform="translate(45, 770)">
+    <rect class="panel-base" width="425" height="240" rx="14" />
+    <circle cx="25" cy="30" r="5.5" class="dot-cyan" />
+    <text class="font-inter tile-title" x="42" y="35">AI &amp; Machine Learning</text>
+    <!-- Skills Grid -->
+    <g transform="translate(25, 65)">
+      <!-- PyTorch -->
+      <rect class="skill-pill" x="0" y="0" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="47.5" y="22" text-anchor="middle">PyTorch</text>
+      <!-- LLM -->
+      <rect class="skill-pill" x="105" y="0" width="75" height="36" rx="9" />
+      <text class="font-inter skill-text" x="142.5" y="22" text-anchor="middle">LLM</text>
+      <!-- Computer Vision -->
+      <rect class="skill-pill" x="190" y="0" width="155" height="36" rx="9" />
+      <text class="font-inter skill-text" x="267.5" y="22" text-anchor="middle">Computer Vision</text>
+      
+      <!-- Row 2 -->
+      <!-- Python -->
+      <rect class="skill-pill" x="0" y="48" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="47.5" y="70" text-anchor="middle">Python</text>
+    </g>
+  </g>
+
+  <!-- COLUMN 2: RIGHT -->
+
+  <!-- TILE 5: Frontend -->
+  <g transform="translate(515, 50)">
+    <rect class="panel-base" width="440" height="390" rx="14" />
+    <circle cx="25" cy="30" r="5.5" class="dot-cyan" />
+    <text class="font-inter tile-title" x="42" y="35">Frontend</text>
+    <!-- Skills Grid -->
+    <g transform="translate(25, 65)">
+      <!-- React -->
+      <rect class="skill-pill" x="0" y="0" width="85" height="36" rx="9" />
+      <text class="font-inter skill-text" x="42.5" y="22" text-anchor="middle">React</text>
+      <!-- Next.js -->
+      <rect class="skill-pill" x="95" y="0" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="142.5" y="22" text-anchor="middle">Next.js</text>
+      <!-- Flutter -->
+      <rect class="skill-pill" x="200" y="0" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="247.5" y="22" text-anchor="middle">Flutter</text>
+      <!-- Android -->
+      <rect class="skill-pill" x="305" y="0" width="90" height="36" rx="9" />
+      <text class="font-inter skill-text" x="350" y="22" text-anchor="middle">Android</text>
+      
+      <!-- Row 2 -->
+      <!-- Tailwind CSS -->
+      <rect class="skill-pill" x="0" y="48" width="135" height="36" rx="9" />
+      <text class="font-inter skill-text" x="67.5" y="70" text-anchor="middle">Tailwind CSS</text>
+      <!-- Zustand -->
+      <rect class="skill-pill" x="145" y="48" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="192.5" y="70" text-anchor="middle">Zustand</text>
+      <!-- Vitest -->
+      <rect class="skill-pill" x="250" y="48" width="85" height="36" rx="9" />
+      <text class="font-inter skill-text" x="292.5" y="70" text-anchor="middle">Vitest</text>
+      
+      <!-- Row 3 -->
+      <!-- Playwright -->
+      <rect class="skill-pill" x="0" y="96" width="115" height="36" rx="9" />
+      <text class="font-inter skill-text" x="57.5" y="118" text-anchor="middle">Playwright</text>
+    </g>
+  </g>
+
+  <!-- TILE 6: Infrastructure & Cloud -->
+  <g transform="translate(515, 470)">
+    <rect class="panel-base" width="440" height="250" rx="14" />
+    <circle cx="25" cy="30" r="5.5" class="dot-violet" />
+    <text class="font-inter tile-title" x="42" y="35">Infrastructure &amp; Cloud</text>
+    <!-- Skills Grid -->
+    <g transform="translate(25, 65)">
+      <!-- AWS -->
+      <rect class="skill-pill" x="0" y="0" width="75" height="36" rx="9" />
+      <text class="font-inter skill-text" x="37.5" y="22" text-anchor="middle">AWS</text>
+      <!-- Docker -->
+      <rect class="skill-pill" x="85" y="0" width="95" height="36" rx="9" />
+      <text class="font-inter skill-text" x="132.5" y="22" text-anchor="middle">Docker</text>
+      <!-- Git -->
+      <rect class="skill-pill" x="190" y="0" width="65" height="36" rx="9" />
+      <text class="font-inter skill-text" x="222.5" y="22" text-anchor="middle">Git</text>
+      <!-- Linux -->
+      <rect class="skill-pill" x="265" y="0" width="75" height="36" rx="9" />
+      <text class="font-inter skill-text" x="302.5" y="22" text-anchor="middle">Linux</text>
+    </g>
+  </g>
+
+  <!-- TILE 7: Game Development -->
+  <g transform="translate(515, 750)">
+    <rect class="panel-base" width="440" height="260" rx="14" />
+    <circle cx="25" cy="30" r="5.5" class="dot-emerald" />
+    <text class="font-inter tile-title" x="42" y="35">Game Development</text>
+    <!-- Skills Grid -->
+    <g transform="translate(25, 65)">
+      <!-- Unity -->
+      <rect class="skill-pill" x="0" y="0" width="85" height="36" rx="9" />
+      <text class="font-inter skill-text" x="42.5" y="22" text-anchor="middle">Unity</text>
+      <!-- C# -->
+      <rect class="skill-pill" x="95" y="0" width="65" height="36" rx="9" />
+      <text class="font-inter skill-text" x="127.5" y="22" text-anchor="middle">C#</text>
+      <!-- C++ -->
+      <rect class="skill-pill" x="170" y="0" width="75" height="36" rx="9" />
+      <text class="font-inter skill-text" x="207.5" y="22" text-anchor="middle">C++</text>
+    </g>
+  </g>
+</svg>

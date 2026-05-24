@@ -1,69 +1,78 @@
-# hanaoverride
-## Overview
-I do various things for a living. I maintain a technical blog and several learning repositories.
-- `Blog`: https://hanaoverride.github.io
-- `Focus areas`: I usually do various things, but If I really have to pick up themes; Machine Learning(NLP, CV), Security, Full-Stack Web Programming(Python, Next.js), and Linguistics!
-## Stats & Activity
-
 <div align="center">
- 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=hanaoverride&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=hanaoverride&theme=dark&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=hanaoverride&layout=compact&theme=dark&hide_border=true&hide=jupyter%20notebook)
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=hanaoverride)](https://solved.ac/hanaoverride)
-
+  <!-- Full Glassmorphic Liquid Glass Header -->
+  <img src="./header.svg" width="100%" alt="hanaoverride's Liquid Glass Header" />
 </div>
 
-## Educations
-- I graduated from `Korea National Open University (KNOU)` with a `B.S. in Computer Science` in February 2026.
-- I successfully completed `the 5th cohort of the YearDreamSchool Data Scientist program` (Mar 2025 – Dec 2025).
-## Languages
-- `Korean`: My Native Language and I usually follow basic principle of writing and speaking, maintaining a fluent and academic tone.
-- `English`: I can speak it fluently — if you want a technical debate in real life, I can accept it. If you want me to answer the questions in the secondary room — I'm ready.
-- `Japanese`: Can do it casually. Maybe I can go on a errand and buy a tofu, a bottle of milk, and a toothpaste. After that I'll return your change.
-## Tech Stack
-- `Programming Languages`: I have used many of them; but the one I actually have expertise in is **Python**.
-I'm also interested in C# and Java and have done some projects with them. I could try to read and suggest a code of languages that I don't know much based on the heuristics, but I can't say that's my **stack**.
-- `Platforms/Frameworks`: I've done personal projects with C++ with transformers, Unity 3D, Next.js, FastAPI, GitHub Pages with Jekyll (minima theme)
-- `AI/ML`: Usually PyTorch, but I can understand some legacy TensorFlow codes.
-- `Domains`: I will graduate the university(Korea National Open University) after this final semester, with expected GPA of 3.4. Plus I've completed YearDreamSchool 5th DataScientist Track to enhance my AI Skills.
-## Selected Projects
-[![hanaoverride.github.io](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=hanaoverride.github.io&show_owner=true)](https://github.com/hanaoverride/hanaoverride.github.io)
+<br>
 
-- Personal tech/blog (Jekyll on GitHub Pages). Topics include LLM fundamentals, join operation visualizations, study guides, and CTF writeups.
+## 💫 About Me
 
-[![english-for-it](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=english-for-it&show_owner=true)](https://github.com/hanaoverride/english-for-it)
+I am a versatile **full-stack developer** who crosses boundaries between frontend, backend, AI, and game development. I flexibly combine the optimal tech stack to solve complex problems, aiming to create valuable experiences that go beyond simple implementation to deeply inspire users.
 
-- Study guidance in Korean for improving practical technical English. These series of posts received good reviews on X.
+---
 
-[![data-scientist-cookbook-for-korean](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=data-scientist-cookbook-for-korean&show_owner=true)](https://github.com/hanaoverride/data-scientist-cookbook-for-korean)
+## 🛠️ Tech Stack Dashboard
 
-- I've done some handywork during the program and I'm really proud of it, as it is nicely completed so that newcomer follows this cookbook to follow-up basic principles of Machine Learning. If you are Korean, and If you want a basic knowledge about it I really recommend to fully read these documents.
+<div align="center">
+  <!-- Custom Glassmorphic Tech Grid -->
+  <img src="./tech_dashboard.svg" width="100%" alt="hanaoverride's Tech Stack Dashboard" />
+</div>
 
-[![PDF-OCR-by-LLM](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=PDF-OCR-by-LLM&show_owner=true)](https://github.com/hanaoverride/PDF-OCR-by-LLM)
+---
 
-- Converts image-only PDFs into searchable PDFs using EasyOCR + LLM-based correction with overlay output. Includes GUI.
+## 🚀 Key Projects & Portfolio
 
-[![solutions-for-coding-test](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=solutions-for-coding-test&show_owner=true)](https://github.com/hanaoverride/solutions-for-coding-test)
+### 🖥️ [Linux Desktop Portfolio](https://github.com/hanaoverride/mywebsite)
+> **Interactive Linux Desktop GUI Portfolio Website**
+> <br>
+> `Next.js` `TypeScript` `Tailwind CSS` `Zustand` `Docker`
 
-- Algorithms and data structures practice (DP, graph, BFS/DFS, greedy, etc.).
+An interactive portfolio website crafted as a fully functional Linux desktop GUI. It embeds custom desktop applications like a simulated terminal, functional web browser, and mock mail client to deliver an engaging and unique experience.
 
-[![Mate-Engine-OpenRouter](https://github-readme-stats.vercel.app/api/pin/?username=hanaoverride&repo=Mate-Engine-OpenRouter&show_owner=true)](https://github.com/hanaoverride/Mate-Engine-OpenRouter)
+---
 
-- Added OpenRouter Web Chat integration with additional UI to Unity 3D client; chill with your favorite anime character.
+### 🎨 [Landing Page Examples](https://landingpgex.netlify.app/)
+> **High-End Motion & 3D Interactive Landing Pages**
+> <br>
+> `HTML/JS/CSS` `Tailwind CSS v4` `GSAP` `Three.js` `Playwright`
 
-![MUNCH.PRESS enhancement project - Backend](https://github.com/YearDream-The-Crew/backend)
+A premium collection of highly interactive landing page templates powered by GSAP animation engines and Three.js 3D layouts. Features four tailored aesthetic strategic frameworks: Corporate, Product showcase, Event campaign, and Creative Portfolio.
 
-- Team project which I took account of the lead; Fully Functioning FastAPI backend with automated CI/CD integration, plus IaC.
+---
 
-![MUNCH.PRESS enhancement project - Frontend](https://github.com/YearDream-The-Crew/frontend)
+### 🧠 Full-Stack RAG Web
+> **Retrieval-Augmented Generation (RAG) Document Hub**
+> <br>
+> `Next.js` `FastAPI` `PostgreSQL` `LangChain` `OpenAI`
 
-- Team project which I took account of the lead; Next.js with TailwindCSS support.
-  
-## Interests
-- `LLM engineering`: agent programming, prompt design, evaluation, debugging, defending prompt injections, and especially know when to use LLMs.
-- `Machine Learning`: Transformer-based Language models are OK, Vision Models are OK, and I also have interest in Deep-Learning based Chess Engine like LeelaChessZero.(I've tried with orthodox minimax algorithm)
-- `OCR and document processing`: robust pipelines, post-OCR correction, searchability
-- `Computer science fundamentals`: algorithms, data structures, joins and query reasoning
-- `Security/CTF`: writeups and practical problem solving.
-- `Technical writing and learning workflows`
+An enterprise-grade Full-Stack RAG web hub integrating LLM models with highly optimized vector databases. Enables intelligent document ingestion, semantic semantic search, and structural facts extraction from complex textual assets.
+
+---
+
+### 📄 [PDF OCR by LLM](https://github.com/hanaoverride/PDF-OCR-by-LLM)
+> **AI-Corrected Image PDF Search Pipeline**
+> <br>
+> `Python` `EasyOCR` `OpenAI API` `PyMuPDF` `ReportLab`
+
+An AI-augmented OCR correction pipeline that converts raw image PDFs into searchable digital files. It extracts text via EasyOCR, leverages LLMs to correct recognition errors based on context, and matches coordinates to stamp a hidden searchable text layer onto the original PDF.
+
+---
+
+## 📈 Dashboard Metrics
+
+<p align="center">
+  <img src="https://gh-stats.com/api?username=hanaoverride&show_icons=true&bg_color=080B10&title_color=22D3EE&text_color=94A3B8&icon_color=A855F7&border_color=1F2937&hide_border=false" alt="hanaoverride's GitHub Stats" width="48%" />
+  &nbsp;&nbsp;
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hanaoverride&theme=tokyonight&background=080B10&title=22D3EE&text=94A3B8&sideNums=A855F7&sideTitle=22D3EE&short_numbers=true&border=1F2937&hide_border=false" alt="hanaoverride's Streak Stats" width="48%" />
+</p>
+
+---
+
+## ✉️ Contact & Socials
+* 📧 **Email**: [hanaoverride@gmail.com](mailto:hanaoverride@gmail.com)
+* 🐙 **GitHub**: [github.com/hanaoverride](https://github.com/hanaoverride)
+
+<div align="center">
+  <br>
+  <sub>Designed with ❤️ in Full Glassmorphic Style | &copy; 2026 @hanaoverride</sub>
+</div>

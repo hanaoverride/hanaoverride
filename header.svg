@@ -1,0 +1,91 @@
+<svg fill="none" viewBox="0 0 1000 320" width="100%" height="320" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Slate -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080B10"/>
+      <stop offset="60%" stop-color="#0E131F"/>
+      <stop offset="100%" stop-color="#05070A"/>
+    </linearGradient>
+
+    <!-- Liquid Blob Colors -->
+    <linearGradient id="blob-cyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0891B2"/>
+    </linearGradient>
+    <linearGradient id="blob-purple" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7E22CE"/>
+    </linearGradient>
+    <linearGradient id="blob-emerald" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+
+    <!-- Highly Compatibe Gaussian Blur -->
+    <filter id="liquid-blur" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="65" />
+    </filter>
+
+    <!-- Glass Borders -->
+    <linearGradient id="glass-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="25%" stop-color="#06B6D4" stop-opacity="0.15"/>
+      <stop offset="75%" stop-color="#A855F7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .font-inter { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+    .title-name { font-weight: 900; font-size: 46px; fill: #ffffff; letter-spacing: -1.5px; }
+    .subtitle-job { font-weight: 700; font-size: 20px; fill: #22D3EE; letter-spacing: 0.5px; }
+    .tagline { font-weight: 400; font-size: 15px; fill: #94A3B8; }
+    .glass-base { fill: rgba(255, 255, 255, 0.025); stroke: url(#glass-border); stroke-width: 1.5px; }
+    .badge-label { font-weight: 600; font-size: 10px; fill: #A855F7; letter-spacing: 1.5px; text-transform: uppercase; }
+  </style>
+
+  <!-- Base Card Background -->
+  <rect width="1000" height="320" rx="20" fill="url(#bg-grad)" />
+
+  <!-- Liquid Glowing Blobs (Glass Backlight) -->
+  <circle cx="160" cy="110" r="110" fill="url(#blob-purple)" filter="url(#liquid-blur)" opacity="0.65" />
+  <circle cx="840" cy="200" r="130" fill="url(#blob-cyan)" filter="url(#liquid-blur)" opacity="0.65" />
+  <circle cx="510" cy="240" r="100" fill="url(#blob-emerald)" filter="url(#liquid-blur)" opacity="0.5" />
+
+  <!-- Outer Glass Frame -->
+  <rect class="glass-base" x="25" y="25" width="950" height="270" rx="18" />
+
+  <!-- Profile Glass Icon Frame (Left) -->
+  <g transform="translate(75, 75)">
+    <rect x="0" y="0" width="170" height="170" rx="85" fill="rgba(255, 255, 255, 0.04)" stroke="url(#glass-border)" stroke-width="1.2" />
+    <circle cx="85" cy="85" r="50" fill="none" stroke="#22D3EE" stroke-width="1.5" stroke-dasharray="10 5 15 5" />
+    <circle cx="85" cy="85" r="35" fill="rgba(6, 182, 212, 0.15)" stroke="#A855F7" stroke-width="1.5" />
+    <!-- Visual Core Code Accent -->
+    <path d="M72,80 L62,85 L72,90 M98,80 L108,85 L98,90 M82,95 L88,75" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+
+  <!-- Typography Content (Right) -->
+  <g transform="translate(285, 95)" class="font-inter">
+    <!-- Tag capsule -->
+    <rect x="0" y="0" width="130" height="24" rx="12" fill="rgba(168, 85, 247, 0.15)" stroke="#A855F7" stroke-opacity="0.3" stroke-width="1" />
+    <text x="65" y="15" text-anchor="middle" class="badge-label">all-around dev</text>
+
+    <!-- Main Headings -->
+    <text x="0" y="65" class="title-name">hanaoverride</text>
+    <text x="0" y="102" class="subtitle-job">Full-Stack Developer</text>
+    <text x="0" y="132" class="tagline">Versatile developer crossing boundaries between Frontend, Backend, AI &amp; Game Dev</text>
+  </g>
+
+  <!-- Minimal Decorative Dots / Grid Accent -->
+  <g transform="translate(900, 50)" opacity="0.25">
+    <circle cx="0" cy="0" r="2" fill="#ffffff" />
+    <circle cx="15" cy="0" r="2" fill="#ffffff" />
+    <circle cx="30" cy="0" r="2" fill="#ffffff" />
+    <circle cx="0" cy="15" r="2" fill="#ffffff" />
+    <circle cx="15" cy="15" r="2" fill="#ffffff" />
+    <circle cx="30" cy="15" r="2" fill="#ffffff" />
+    <circle cx="0" cy="30" r="2" fill="#ffffff" />
+    <circle cx="15" cy="30" r="2" fill="#ffffff" />
+    <circle cx="30" cy="30" r="2" fill="#ffffff" />
+  </g>
+</svg>
