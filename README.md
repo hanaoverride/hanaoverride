@@ -61,9 +61,10 @@ An AI-augmented OCR correction pipeline that converts raw image PDFs into search
 ## 📈 Dashboard Metrics
 
 <p align="center">
-  <img src="https://gh-stats.com/api?username=hanaoverride&show_icons=true&bg_color=080B10&title_color=22D3EE&text_color=94A3B8&icon_color=A855F7&border_color=1F2937&hide_border=false" alt="hanaoverride's GitHub Stats" width="48%" />
-  &nbsp;&nbsp;
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hanaoverride&theme=tokyonight&background=080B10&title=22D3EE&text=94A3B8&sideNums=A855F7&sideTitle=22D3EE&short_numbers=true&border=1F2937&hide_border=false" alt="hanaoverride's Streak Stats" width="48%" />
+  <img src="https://gh-stats.com/api?username=hanaoverride&show_icons=true&bg_color=080B10&title_color=22D3EE&text_color=94A3B8&icon_color=A855F7&border_color=1F2937&hide_border=false" alt="hanaoverride's GitHub Stats" width="80%" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=hanaoverride&theme=tokyonight&background=080B10&title=22D3EE&text=94A3B8&sideNums=A855F7&sideTitle=22D3EE&short_numbers=true&border=1F2937&hide_border=false" alt="hanaoverride's Streak Stats" width="80%" />
 </p>
 
 ---
