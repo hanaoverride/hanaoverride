@@ -75,5 +75,5 @@ An AI-augmented OCR correction pipeline that converts raw image PDFs into search
 
 <div align="center">
   <br>
-  <sub>Designed with ❤️ in Full Glassmorphic Style | &copy; 2026 @hanaoverride</sub>
+  <sub>2026 @hanaoverride</sub>
 </div>
