@@ -27,7 +27,7 @@ I am a versatile **full-stack developer** who crosses boundaries between fronten
 > <br>
 > `Next.js` `TypeScript` `Tailwind CSS` `Zustand` `Docker`
 
-An interactive portfolio website crafted as a fully functional Linux desktop GUI. It embeds custom desktop applications like a simulated terminal, functional web browser, and mock mail client to deliver an engaging and unique experience.
+An interactive portfolio website crafted as a fully functional Linux desktop GUI. It embeds custom desktop applications like a simulated terminal, functional web browser, and mail client to deliver an engaging and unique experience.
 
 ---
 
