@@ -40,7 +40,7 @@ A premium collection of highly interactive landing page templates powered by GSA
 
 ---
 
-### 🧠 Full-Stack RAG Web
+### 🧠 [Full-Stack RAG Web](https://github.com/hanaoverride/portfolio-rag-web)
 > **Retrieval-Augmented Generation (RAG) Document Hub**
 > <br>
 > `Next.js` `FastAPI` `PostgreSQL` `LangChain` `OpenAI`
