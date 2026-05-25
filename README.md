@@ -67,12 +67,6 @@ An AI-augmented OCR correction pipeline that converts raw image PDFs into search
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=hanaoverride&theme=tokyonight&background=080B10&title=22D3EE&text=94A3B8&sideNums=A855F7&sideTitle=22D3EE&short_numbers=true&border=1F2937&hide_border=false" alt="hanaoverride's Streak Stats" width="80%" />
 </p>
 
----
-
-## ✉️ Contact & Socials
-* 📧 **Email**: [hanaoverride@gmail.com](mailto:hanaoverride@gmail.com)
-* 🐙 **GitHub**: [github.com/hanaoverride](https://github.com/hanaoverride)
-
 <div align="center">
   <br>
   <sub>2026 @hanaoverride</sub>
